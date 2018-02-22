@@ -16,7 +16,7 @@
  *
  ******************************************************************************/
 
-//package edu.princeton.cs.algs4;
+package edu.princeton.cs.algs4;
 
 /**
  *  The {@code Average} class provides a client for reading in a sequence
@@ -47,7 +47,6 @@ public class Average {
         while (!StdIn.isEmpty()) {
             double value = StdIn.readDouble();
             sum += value;
-            StdOut.println("The sum is " + sum);
             count++;
         }
 
