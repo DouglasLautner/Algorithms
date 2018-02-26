@@ -91,7 +91,7 @@ public class QuickUnionUF {
      * @param  n the number of sites
      * @throws IllegalArgumentException if {@code n < 0}
      */
-    public QuickUnionUF(int n) {
+    public QuickUnionUF(int n) {						//Constructor
         parent = new int[n];
         count = n;
         for (int i = 0; i < n; i++) {
